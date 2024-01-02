@@ -5962,3 +5962,18 @@ label {
 .slider-drag .swiper-slide {
   cursor: none;
 }
+
+/*************************************************************************************************************/
+
+.countdown-container {
+	display: flex;
+	align-items: center;
+	height:100 vh;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+
+  .countdown-item {
+	margin: 0 10px;
+  }
