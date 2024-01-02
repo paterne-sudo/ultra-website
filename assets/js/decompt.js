@@ -16,6 +16,11 @@ function startCountdown() {
         document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
         document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
         document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+
+         // Affichage du compte à rebours dans les correspondantes
+         document.getElementById('hours1').textContent = hours.toString().padStart(2, '0');
+         document.getElementById('minutes1').textContent = minutes.toString().padStart(2, '0');
+         document.getElementById('seconds1').textContent = seconds.toString().padStart(2, '0');
   
         // Arrêt du compte à rebours lorsque la date cible est atteinte
         if (distance < 0) {
